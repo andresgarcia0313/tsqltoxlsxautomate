@@ -1,0 +1,6 @@
+/db/scriptSQL
+/db/data
+/db/log
+/db/secrets
+node_modules
+package-lock.json

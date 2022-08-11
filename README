@@ -1,0 +1,16 @@
+PROYECTO
+
+Multiproposito con el objeto de tener sql server developer o express con código typescript
+
+ESTRUCTURA
+
+Solo con docker está sql server
+y en ts esta el Typescript la conexión con sql server
+
+CORRER EL PROYECTO
+
+
+docker-compose up -d
+cd ts
+npm install
+npm run start

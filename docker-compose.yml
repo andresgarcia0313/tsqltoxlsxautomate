@@ -1,13 +1,14 @@
 version: "3.7"
 services:
-  databasemanager:    
+  db:    
     container_name: SQLServer
-    build: ./serverSqlServer  
+    build: ./db  
     image: andresgarcia0313/sql:latest
     environment:    
       DEBUG: 1
       ACCEPT_EULA: Y
-      SA_PASSWORD: "Asde71.4"    # MSSQL_PID: Express #MSSQL_PID: Developer
+      SA_PASSWORD: "Asde71.4"    # MSSQL_PID: Express #
+      MSSQL_PID: Developer
       MSSQL_AGENT_ENABLED: "true"    # 
       MSSQL_MEMORY_LIMIT_MB: 512
     ports:
